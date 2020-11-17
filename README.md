@@ -3,6 +3,22 @@
 
 _stowise_ is an application that makes it easy to get started with using Gnu Stow to farm ones dotfiles.
 
+### How to run the application
+1. First install the Gnu Stow for your OS.
+2. clone this repo with 
+
+`git clone https://github.com/rameshxghimire/stowise.git`
+
+3. cd into the stowise repo
+
+`cd stowise`
+
+4. run stowise
+
+`sh stowise.sh`
+
+# ---------- DOCUMENTATION ---------- #
+
 * What are dotfiles?
 
    Dotfiles are configuration files which save and determine various settings and configurations of the application we use. 
