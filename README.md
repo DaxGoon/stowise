@@ -6,6 +6,7 @@ stowise is entirely written in shell script, you are welcome to examine it, read
 However, I would rather collaborate with me and make this better and more useful. :)
 
 ### How to use stowise
+
 ```
 1. First install the Gnu Stow for your OS.
 MacOS: 
@@ -46,8 +47,6 @@ sh stowise.sh
    Hence we need an application that will recreate the directory structure, copy all the files with preserving their relative paths,
    and make it ready for our Gnu Stow to farm the dots.
 
-   _stowise_ comes in play here.
-
 * What does stowise do?
 
    It regenerates the complete directory structure of your existing $HOME/.config directory in a directory that it creates (It asks for the desired name first).
@@ -56,12 +55,8 @@ sh stowise.sh
    It then empties the $HOME/.config
    Finally it goes to the new dotfiles directory and runs stow command one by one so that the Gnu Stow application creates the required symlinks.
 
-* CAVEATS
-+ Only directories and dirs+files inside them are copied to the new location leaving out files which are directly under $HOME/.config 
-+ Those individual files can be copied back to $HOME/.config from backup location if needed.
-
 * LIMITATIONS
-+ Only works for $HOME/.config directory
++ Only works for $HOME/.config directory (which should cover most of the applications in Gnu-like and Unix-like systems.)
 
 ### Contribuions are welcome.
 We would like to expand the functionality of this application making it capable of:
