@@ -1,13 +1,12 @@
 # stowise
-## _doing Stow wisely_
+## _Doing Stow wisely_
 
-_stowise_ is an script/application that makes it easy to get started with using Gnu Stow to farm ones dotfiles. 
+_stowise_ is a script that makes it easy to get started with using Gnu Stow to farm ones dotfiles. 
 stowise is entirely written in shell script, you are welcome to examine it, read it, fork it, modify it, commercialise or do whatever you want to do with it.
 However, I would rather collaborate with me and make this better and more useful. :)
 
-### How to run the application
+### How to use stowise
 1. First install the Gnu Stow for your OS.
-
 ```
 MacOS: 
 brew install stow
@@ -26,13 +25,16 @@ sudo pacman -S stow
 
 `git clone https://github.com/daxgoon/stowise.git`
 
+
 3. cd into the stowise repo
 
 `cd stowise`
 
+
 4. run stowise
 
 `sh stowise.sh`
+
 
 ### DOCUMENTATION
 
