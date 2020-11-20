@@ -6,8 +6,8 @@ stowise is entirely written in shell script, you are welcome to examine it, read
 However, I would rather collaborate with me and make this better and more useful. :)
 
 ### How to use stowise
-1. First install the Gnu Stow for your OS.
 ```
+1. First install the Gnu Stow for your OS.
 MacOS: 
 brew install stow
 
@@ -19,22 +19,16 @@ sudo apt install stow
 
 Arch based (Arch, Manjaro etc.): 
 sudo pacman -S stow
-```
 
 2. clone this repo with 
-
-`git clone https://github.com/daxgoon/stowise.git`
-
+git clone https://github.com/daxgoon/stowise.git
 
 3. cd into the stowise repo
-
-`cd stowise`
-
+cd stowise
 
 4. run stowise
-
-`sh stowise.sh`
-
+sh stowise.sh
+```
 
 ### DOCUMENTATION
 
