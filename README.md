@@ -7,7 +7,7 @@ _stowise_ is an application that makes it easy to get started with using Gnu Sto
 1. First install the Gnu Stow for your OS.
 2. clone this repo with 
 
-`git clone https://github.com/rameshxghimire/stowise.git`
+`git clone https://github.com/daxgoon/stowise.git`
 
 3. cd into the stowise repo
 
