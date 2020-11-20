@@ -1,10 +1,27 @@
 # stowise
 ## _doing Stow wisely_
 
-_stowise_ is an application that makes it easy to get started with using Gnu Stow to farm ones dotfiles.
+_stowise_ is an script/application that makes it easy to get started with using Gnu Stow to farm ones dotfiles. 
+stowise is entirely written in shell script, you are welcome to examine it, read it, fork it, modify it, commercialise or do whatever you want to do with it.
+However, I would rather collaborate with me and make this better and more useful. :)
 
 ### How to run the application
 1. First install the Gnu Stow for your OS.
+
+```
+MacOS: 
+brew install stow
+
+Fedora/centos: 
+sudo dnf install stow
+
+Debian based (Ubuntu, Pop, Elementary, Mint etc): 
+sudo apt install stow
+
+Arch based (Arch, Manjaro etc.): 
+sudo pacman -S stow
+```
+
 2. clone this repo with 
 
 `git clone https://github.com/daxgoon/stowise.git`
@@ -17,7 +34,7 @@ _stowise_ is an application that makes it easy to get started with using Gnu Sto
 
 `sh stowise.sh`
 
-# ---------- DOCUMENTATION ---------- #
+### DOCUMENTATION
 
 * What are dotfiles?
 
@@ -50,7 +67,7 @@ _stowise_ is an application that makes it easy to get started with using Gnu Sto
 * LIMITATIONS
 + Only works for $HOME/.config directory
 
-## Contribuions are welcome.
+### Contribuions are welcome.
 We would like to expand the functionality of this application making it capable of:
 + Working with multiple directories including $HOME
 + Mimicking POSIX-COMPLIANT behivior for non-compliant applications
